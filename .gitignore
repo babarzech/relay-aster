@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/token-management
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+ 
+/.vscode/
+.vscode/
+.vscode
+# production
+/build
+token-management/
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+public/sw.js
+public/workbox-*.js
+public/fallback-*.js
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+package-lock.json
+
+# service worker
+/public/sw.js
+/public/workbox-*.js
+.claude
+nul
+
+# Vitest
+/test-reports/
+package-lock.json
+# Sentry Config File
+.env.sentry-build-plugin

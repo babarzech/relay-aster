@@ -1,0 +1,25 @@
+[dotenv@17.3.1] injecting env (9) from .env -- tip: ≡ƒ¢í∩╕Å auth for agents: https://vestauth.com
+--- Relay Deposit Setup ---
+User: 0x03508bb71268bba25ecacc8f620e01866650532c
+Sending: 0.00005 ETH
+From Chain: 42161 -> To Chain: 56
+---------------------------
+WARNING: PRIVATE_KEY not found in .env file. Running in Dry-Run mode (Quote Only).
+Amount in Wei: 50000000000000
+
+--- Step 1: Fetching Estimated Output Amount ---
+Details available.
+Estimated Output (USDT): 71377835896904476
+
+--- Step 2: Constructing Call Data ---
+Call Data: 0xcf4a0c5e00000000000000000000000055d398326f99059ff775485246999027b319795500000000000000000000000003508bb71268bba25ecacc8f620e01866650532c00000000000000000000000000000000000000000000000000fd95c379789b1c00000000000000000000000000000000000000000000000000000000000003e8
+
+--- Step 3: Fetching Final Deposit Address ---
+
+!!! ERROR !!!
+API Error Response: {
+  "message": "tradeType=EXACT_OUTPUT is required when 'txs' is set",
+  "errorCode": "INVALID_REQUEST_PARAMS",
+  "requestId": "0x7f690cac65148aed27e330a033f3e04629a1d40af74307d6faec8c57aa6c89c0",
+  "approxSimulatedBlock": 81751004
+}
